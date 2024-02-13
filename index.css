@@ -202,3 +202,37 @@ footer div:first-child {
 footer nav a:first-child {
     margin-left: 0;
 }
+
+@media (max-width: 900px) {
+    .description {
+        width: 100%; /* auto ya da inherit de yapabiliriz */
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    header nav {
+        order:3;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-content {
+        overflow: auto;
+    }
+
+    /* ödev */
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    
+    
+
+
+
+}
