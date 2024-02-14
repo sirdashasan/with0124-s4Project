@@ -219,15 +219,37 @@ footer nav a:first-child {
     }
 
     .section-content {
-        overflow: auto;
+        gap: 1rem;  
     }
 
-    /* ödev */
+
+    main h2 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .card h4 {
+        font-size: 1.2rem;
+        margin: 1.2rem 0;
+    }
+
+    .card .btn-l {
+        padding: 0.6rem 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .card .btn-l i {
+        margin-left: -0.8rem;
+        margin-right: 0.4rem;
+    }
+
+    /* footer */
 
     footer {
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
     }
 
     
