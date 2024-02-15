@@ -208,6 +208,10 @@ footer nav a:first-child {
         width: 100%; /* auto ya da inherit de yapabiliriz */
     }
 
+    main {
+        height: inherit;
+    }
+
     header {
         flex-wrap: wrap;
     }
@@ -235,6 +239,7 @@ footer nav a:first-child {
         font-size: 1.2rem;
         margin: 1.2rem 0;
     }
+
 
     .card .btn-l {
         padding: 0.6rem 1.5rem;
